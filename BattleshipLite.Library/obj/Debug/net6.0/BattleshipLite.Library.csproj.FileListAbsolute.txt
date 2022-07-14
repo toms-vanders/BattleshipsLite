@@ -1,0 +1,12 @@
+C:\Users\tomsv\source\repos\BattleshipsLite\BattleshipLite.Library\bin\Debug\net6.0\BattleshipLite.Library.deps.json
+C:\Users\tomsv\source\repos\BattleshipsLite\BattleshipLite.Library\bin\Debug\net6.0\BattleshipLite.Library.dll
+C:\Users\tomsv\source\repos\BattleshipsLite\BattleshipLite.Library\bin\Debug\net6.0\BattleshipLite.Library.pdb
+C:\Users\tomsv\source\repos\BattleshipsLite\BattleshipLite.Library\obj\Debug\net6.0\BattleshipLite.Library.csproj.AssemblyReference.cache
+C:\Users\tomsv\source\repos\BattleshipsLite\BattleshipLite.Library\obj\Debug\net6.0\BattleshipLite.Library.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tomsv\source\repos\BattleshipsLite\BattleshipLite.Library\obj\Debug\net6.0\BattleshipLite.Library.AssemblyInfoInputs.cache
+C:\Users\tomsv\source\repos\BattleshipsLite\BattleshipLite.Library\obj\Debug\net6.0\BattleshipLite.Library.AssemblyInfo.cs
+C:\Users\tomsv\source\repos\BattleshipsLite\BattleshipLite.Library\obj\Debug\net6.0\BattleshipLite.Library.csproj.CoreCompileInputs.cache
+C:\Users\tomsv\source\repos\BattleshipsLite\BattleshipLite.Library\obj\Debug\net6.0\BattleshipLite.Library.dll
+C:\Users\tomsv\source\repos\BattleshipsLite\BattleshipLite.Library\obj\Debug\net6.0\refint\BattleshipLite.Library.dll
+C:\Users\tomsv\source\repos\BattleshipsLite\BattleshipLite.Library\obj\Debug\net6.0\BattleshipLite.Library.pdb
+C:\Users\tomsv\source\repos\BattleshipsLite\BattleshipLite.Library\obj\Debug\net6.0\ref\BattleshipLite.Library.dll

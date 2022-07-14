@@ -6,14 +6,6 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v6.0": {
-      "ConsoleUI/1.0.0": {
-        "dependencies": {
-          "BattleshipLite.Library": "1.0.0"
-        },
-        "runtime": {
-          "ConsoleUI.dll": {}
-        }
-      },
       "BattleshipLite.Library/1.0.0": {
         "runtime": {
           "BattleshipLite.Library.dll": {}
@@ -22,11 +14,6 @@
     }
   },
   "libraries": {
-    "ConsoleUI/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
     "BattleshipLite.Library/1.0.0": {
       "type": "project",
       "serviceable": false,
