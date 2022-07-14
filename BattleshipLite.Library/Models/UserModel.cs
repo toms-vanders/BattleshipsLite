@@ -10,7 +10,7 @@ namespace BattleshipLite.Library.Models
     {
         public string Name { get; set; }
         public List<GridModel> UserGrid { get; set; }
-        public List<string> ShipLocations { get; set; }
-        public List<string> ShotGrid { get; set; }
+        public List<ShipModel> ShipLocations { get; set; }
+        public List<GridModel> ShotGrid { get; set; }
     }
 }

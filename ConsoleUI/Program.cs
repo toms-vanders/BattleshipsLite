@@ -1,11 +1,74 @@
-﻿namespace ConsoleUI
+﻿using BattleshipLite.Library;
+using BattleshipLite.Library.Logic;
+using BattleshipLite.Library.Models;
+
+namespace ConsoleUI
 {
     internal class Program
     {
         static void Main(string[] args)
         {
 
-            StartGame();
+            ConsoleCommands.StartGame();
+
+            UserSetup userSetup = new UserSetup();
+
+            List<UserModel> users = userSetup.CreateUsers();
+
+            //UserModel userOne = new UserModel();
+            //UserModel userTwo = new UserModel();
+            //userOne.Name = UserInput("Player 1 enter your name: ");
+            //userTwo.Name = UserInput("Player 2 enter your name: ");
+
+            //userOne.UserGrid = new List<GridModel>();
+            //userTwo.UserGrid = new List<GridModel>();
+
+            userSetup.AskUsersName(users);
+
+
+            userSetup.AssignUsersGrid(users);
+            //int number = 1;
+            //char letter = 'A';
+
+            //for (int i = 0; i < 5; i++)
+            //{
+            //    for (int j = 0; j < 5; j++)
+            //    {
+            //        userOne.UserGrid.Add(new GridModel() { SpotLetter = letter, SpotNumber = number, Status = Status.Empty });
+            //        letter++;
+            //    }
+            //    letter = 'A';
+            //    number++;
+            //}
+
+            userSetup.AssignShipLocations(users);
+
+            foreach (UserModel user in users)
+            {
+                foreach (var spot in user.UserGrid)
+                {
+                    Console.WriteLine($"{spot.SpotLetter}{spot.SpotNumber}: {spot.Status}");
+                }
+            }
+
+
+            //Console.WriteLine("Choose spot on the grid for your ships in the range A1-E5\n");
+            //for (int i = 1; i <= 5; i++)
+            //{
+            //    Console.WriteLine($"Ship {i}: ");
+            //    char column = char.Parse(UserInput($"Choose a column (A-E): "));
+            //    int row = int.Parse(UserInput($"Choose a row (1-5): "));
+            //    foreach (GridModel spot in userOne.UserGrid)s
+            //    {
+            //        if (spot.SpotLetter == column && spot.SpotNumber == row)
+            //        {
+            //            spot.Status = Status.Ship;
+            //        }
+            //        Console.WriteLine($"{spot.SpotLetter}{spot.SpotNumber}: {spot.Status}");
+            //    }
+            //}
+
+            
 
             Console.ReadLine();
         }
@@ -23,7 +86,7 @@
         public static void WelcomeScreen()
         {
             Console.WriteLine("***********************************************");
-            Console.WriteLine("**   Welcome to BattleshipsLite: a 2 player  **\n" +
+            Console.WriteLine("**  Welcome to Battleships Lite: a 2 player  **\n" +
                               "**   game where players take turns to sink   **\n" +
                               "**           each others ships!!!            **");
             Console.WriteLine("***********************************************");

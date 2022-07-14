@@ -13,3 +13,6 @@ C:\Users\tomsv\source\repos\BattleshipsLite\ConsoleUI\obj\Debug\net6.0\refint\Co
 C:\Users\tomsv\source\repos\BattleshipsLite\ConsoleUI\obj\Debug\net6.0\ConsoleUI.pdb
 C:\Users\tomsv\source\repos\BattleshipsLite\ConsoleUI\obj\Debug\net6.0\ConsoleUI.genruntimeconfig.cache
 C:\Users\tomsv\source\repos\BattleshipsLite\ConsoleUI\obj\Debug\net6.0\ref\ConsoleUI.dll
+C:\Users\tomsv\source\repos\BattleshipsLite\ConsoleUI\bin\Debug\net6.0\BattleshipLite.Library.dll
+C:\Users\tomsv\source\repos\BattleshipsLite\ConsoleUI\bin\Debug\net6.0\BattleshipLite.Library.pdb
+C:\Users\tomsv\source\repos\BattleshipsLite\ConsoleUI\obj\Debug\net6.0\ConsoleUI.csproj.CopyComplete

@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "BattleshipLite.Library/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/BattleshipLite.Library.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BattleshipLite.Library.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "BattleshipLite.Library/1.0.0": {
+      "type": "project",
+      "path": "../BattleshipLite.Library/BattleshipLite.Library.csproj",
+      "msbuildProject": "../BattleshipLite.Library/BattleshipLite.Library.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "BattleshipLite.Library >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\tomsv\\.nuget\\packages\\": {}
@@ -33,7 +52,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\tomsv\\source\\repos\\BattleshipsLite\\BattleshipLite.Library\\BattleshipLite.Library.csproj": {
+              "projectPath": "C:\\Users\\tomsv\\source\\repos\\BattleshipsLite\\BattleshipLite.Library\\BattleshipLite.Library.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

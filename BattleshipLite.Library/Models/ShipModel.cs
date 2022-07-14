@@ -6,17 +6,9 @@ using System.Threading.Tasks;
 
 namespace BattleshipLite.Library.Models
 {
-    public class GridModel
+    public class ShipModel
     {
-        public char SpotLetter { get; set; }
+        public string SpotLetter { get; set; }
         public int SpotNumber { get; set; }
-        public Status Status { get; set; }
-    }
-    public enum Status
-    {
-        Empty,
-        Ship,
-        Hit,
-        Miss,
     }
 }
