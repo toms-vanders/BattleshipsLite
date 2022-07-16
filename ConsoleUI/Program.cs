@@ -43,13 +43,15 @@ namespace ConsoleUI
 
             userSetup.AssignShipLocations(users);
 
-            foreach (UserModel user in users)
-            {
-                foreach (var spot in user.UserGrid)
-                {
-                    Console.WriteLine($"{spot.SpotLetter}{spot.SpotNumber}: {spot.Status}");
-                }
-            }
+            
+
+            //foreach (UserModel user in users)
+            //{
+            //    foreach (var spot in user.UserGrid)
+            //    {
+            //        Console.WriteLine($"{spot.SpotLetter}{spot.SpotNumber}: {spot.Status}");
+            //    }
+            //}
 
 
             //Console.WriteLine("Choose spot on the grid for your ships in the range A1-E5\n");

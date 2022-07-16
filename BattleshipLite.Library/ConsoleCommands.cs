@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BattleshipLite.Library.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -59,6 +60,41 @@ namespace BattleshipLite.Library
         private static void ExitApplication()
         {
             Environment.Exit(0);
+        }
+        public static void DisplayGrid(UserModel user)
+        {
+            List<GridModel> userGrid = user.UserGrid;
+
+            Console.WriteLine($"\n{user.Name}: \n");
+
+            int newLine = 0;
+            string row = "";
+            foreach (GridModel spot in userGrid)
+            {
+
+                if (spot.Status == Status.Miss)
+                {
+                    row += "O";
+                }
+                else if (spot.Status == Status.Hit)
+                {
+                    row += "X";
+                }
+                else
+                {
+                    row += $"{spot.SpotLetter}{spot.SpotNumber}";
+                }
+
+                newLine++;
+
+                if (newLine == 5)
+                {
+                    Console.WriteLine(row);
+                    newLine = 0;
+                    row = "";
+                }
+            }
+
         }
     }
 }
