@@ -49,11 +49,13 @@ namespace BattleshipLite.Library.Logic
                     {
                         GridModel gridModel = new GridModel() { SpotLetter = letter, SpotNumber = number, Status = Status.Empty };
                         user.UserGrid.Add(gridModel);
-                        letter++;
+                        number++;
                     }
-                    letter = 'A';
-                    number++;
+                    number = 1;
+                    letter++;
                 }
+
+                letter = 'A';
             }
 
         }
